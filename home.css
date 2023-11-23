@@ -1,0 +1,192 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #363636;
+    margin: 20px 30px;
+    color: #d0d0d0;
+    text-align: center;
+  }
+
+  .div1 li{
+    list-style: none;
+  }
+
+  h1{
+    margin: 0;
+  }
+
+ .div1r a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    margin-left: 30px;
+  }
+
+  .div1r a:hover{
+    transform: scale(1.2);
+    color: rgb(192, 183, 183);
+    transition: .2s ease;
+  }
+
+  b{
+    color: #5a7e4f;
+  }
+
+  .div1{
+    display: flex;
+  }
+
+  .div1r {
+    display: flex;
+    padding-left: 30px;
+    padding-top: 30px;
+    letter-spacing: .3px;
+  }
+  
+  .div1 .div1l img{
+    width: 100px;
+    border-radius: 60px;
+  }
+
+  .div2{
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  .motto{
+    max-width: 50%;
+    margin-left: 300px;
+    line-height: 30px;
+  } 
+  .contact{
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact p {
+  margin: 0px;
+  cursor: pointer;
+  }
+
+  .contact .github, .insta{
+  padding: 0px 20px;
+  }
+
+  .contact img {
+    border-radius: 50px;
+    width: 45px;
+    cursor: pointer;
+
+  }
+
+  .skills{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  }
+
+  .skills .box1, .box2, .box3, .box4, .box5, .box6{
+    margin-top: 30px;
+    padding-top: 15px;
+    width: 375px;
+    height: 170px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #474847;
+  }
+
+  .skills .box1:hover, .box2:hover, .box3:hover, 
+  .box4:hover, .box5:hover, .box6:hover{
+    cursor: pointer;
+    background-color: #5e7756;
+    transition: .2s ease;
+    transform: translateY(7px);
+
+  }
+
+  .skills img{
+    width: 40px;
+  }
+
+  .skills h3{
+    color: #ffffff64;
+    margin: 0;
+  }
+  
+  .skills p{
+    color: white;
+  }
+
+  .projects{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 100px;
+  }
+
+  .projects .box7, .box8, .box9{
+    width: 300px;
+    height: 420px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #474847;
+    padding: 20px 0px;
+  }
+
+.projects .box7:hover, .box8:hover, .box9:hover{
+  cursor: pointer;
+  background-color: #725269a5;
+  transition: .3s ease-in;
+  transform: translateX(5px);
+}
+  .projects img{
+    width: 80px;
+    border-radius: 40px;
+    margin-top: 25px ;
+  }
+
+  .projects ul h4 {
+    text-align: left;
+    margin: 5px;
+  }
+
+  .projects ul li {
+    list-style: circle;
+    text-align: left;
+  }
+
+  @media (max-width:1024px){
+    .motto{
+      max-width: 60%;
+      margin-left: 200px;
+    }
+    .projects{
+      padding: 0px 0px;
+      margin: 0px 40px
+    }
+    .projects .box7, .box8, .box9{
+      padding: 20px 0px;
+      margin-top: 30px;
+    }
+  }
+  
+  
+    @media (max-width:920px) {
+      .div1r{
+        padding-left: 20px;
+      }
+      
+        .motto{
+      margin-left: 150px; 
+    }
+    }
+  
+    @media(max-width:540px){
+      .div1r{
+        padding-left: 0px;
+      }
+      .motto{
+        margin-left: 70px;
+      }
+    }
+  
